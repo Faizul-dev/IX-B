@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -48,7 +49,7 @@
   </section>
   
   <!--SOSMED-->
-  <main class="grid-wrap">
+  <main class="grid-wrap" data-aos="fade-up">
   <!-- TikTok -->
     <a href="https://www.tiktok.com/@9bee_smpn2?_t=ZS-8yq2oRDpBhZ&_r=1" class="grid-item grid-tall">
     <div class="grid-head">
@@ -329,5 +330,12 @@
   <footer class="foter" style="text-align: center; font-size: 14px;">
     <p>© 2025 Kelas IX-B. Semua kenangan, tawa, dan lelah diabadikan di sini.</p>
   </footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init({
+      duration: 1000, // durasi animasi (ms)
+      once: true      // animasi cuma sekali
+    });
+	 </script>
 </body>
 </html>
